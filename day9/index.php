@@ -15,9 +15,9 @@
     $sungokong = new ape ("kera sakti");
     $kodok = new frog ("buduk");
 
-    echo $sheep->$name;
+    echo $sheep->name;
     echo "<br>";
-    echo $sheep->$cold_blooded;
+    echo $sheep->cold_blooded;
     echo "<br>";
     echo $sungokong->yell();
     echo "<br>";
