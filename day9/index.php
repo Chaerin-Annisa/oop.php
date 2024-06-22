@@ -31,13 +31,15 @@
     echo "name:".$sungokong->name."<br>";
     echo "legs:".$sungokong->legs."<br>";
     echo "cold blooded:".$sungokong->cold_blooded."<br>";
-    echo "yell:".$kodok->yell."<br><br>";
+    echo "yell:";
+    echo  $kodok->yell()."<br><br>";
   
 
     echo "name:".$kodok->name."<br>";
     echo "legs:".$kodok->legs."<br>";
     echo "cold blooded:".$kodok->cold_blooded."<br>";
-    echo "jump:".$kodok->jump."<br><br>";
+    echo "jump:";
+    echo $kodok->jump()."<br><br>";
 ?>
 </body>
 </html>
